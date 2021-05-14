@@ -1,0 +1,163 @@
+.background {
+    background-size: 80% 100%;
+    background-position: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8UPdL4Ssm1iLBpry1TnEaJ5ZE3CP_jGAk54aoTR__RA7g65GcIJSCptJ_iGNrpw0MC0M&usqp=CAU");
+    padding: 132px 51px 9px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+
+  .black_box_area{
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  .black_box {
+    background-color: black;
+    padding: 52px 19px 51px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: -19px;
+    top: -109px;
+  }
+
+  .texte_box{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+  }
+
+  .me_picture {
+    position: absolute;
+    right: -30px;
+    top: -109px;
+  }
+
+  .description {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 192px 18px 11px 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border: 2px solid black;
+  }
+
+  .texte_descritpion{
+    max-width: 293px;
+    color:    black;
+    margin-bottom: 133px;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+
+  .A_propos {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .texte_a_propos {
+    width: 255px;
+    color: black;
+    align-self: stretch;
+    display: flex;
+    margin-right: 94px;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+
+  .competences {
+    height: 229px;
+    width: 332px;
+    color: black;
+    display: flex;
+    margin-top: 8px;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+
+  .langues{
+    margin-bottom: 18px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .texte_langues {
+    height: 185px;
+    width: 330px;
+    color: black;
+    display: flex;
+    margin-right: 19px;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+
+  .experiences {
+    width: 297px;
+    color: black;
+    align-self: stretch;
+    display: flex;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+
+  .qualites {
+    padding: 0 0 0 2px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .qualites_texte {
+    height: 153px;
+    width: 240px;
+    color: black;
+    display: flex;
+    margin-right: 109px;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+  
+  .interets {
+    width: 234px;
+    color: black;
+    align-self: stretch;
+    display: flex;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
+  
+  .formations {
+    height: 189px;
+    width: 365px;
+    color: black;
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: 192px;
+    font-family: --roboto-15-regular-family;
+    font-size: --roboto-15-regular-size;
+    font-weight: --roboto-15-regular-weight;
+    line-height: --roboto-15-regular-line-height;
+  }
