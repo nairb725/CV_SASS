@@ -2,19 +2,34 @@
     background-color: black;
     color: white;
    font-size: 30px;
+   padding: 0px 0px 0px 5px;
 }
 
 .col-md-5{
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .background {
     background-size: 100% 100%;
     background-position: center;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8UPdL4Ssm1iLBpry1TnEaJ5ZE3CP_jGAk54aoTR__RA7g65GcIJSCptJ_iGNrpw0MC0M&usqp=CAU");
-    padding: 132px 51px 9px 50px;
+    padding: 30px 51px 9px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-repeat: no-repeat;
   }
+
+  .bow-shadow {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 30px 18px 11px 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border: 2px solid black;
+  }
+
+
+
